@@ -1,12 +1,11 @@
 name: First Workflow
 on: workflow_dispatch
-jobs: 
-# first-job is not a reserved job
+jobs:
+  # first-job is not a reserved job
   first-job:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello World!!"
+        run: echo "Prisha sabse acha bacha!!"
       - name: Print goodbye
-        run: echo "Done - bye!!"
-    
+        run: echo "Prisha bole bye bye!!"
