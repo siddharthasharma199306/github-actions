@@ -6,6 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Mummy ko to aata hau github actions!!"
+        run: |
+          echo "Mummy ko to aata hai github actions!!"
+          echo "Mummy hai sabse badhia!!"
       - name: Print goodbye
         run: echo "Mummy ki beti bhi seekh legi github actions!!"
